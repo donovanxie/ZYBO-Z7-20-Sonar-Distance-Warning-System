@@ -59,7 +59,7 @@ The project consists of the following components:
 
 ## Getting Started
 ### Building the Hardware (Vivado)
-1. Open the Vivado Project from [SonarProjectSV](./SonarProjectSV/) folder and locate the .xpr file
+1. Open the Vivado Project from [SonarProjectSV](./SonarProjectSV/) folder and locate the `.xpr` file
 2. Make your own adjustments as you wish.
 3. Build and generate the bitstream (the `.xsa` file).
 
