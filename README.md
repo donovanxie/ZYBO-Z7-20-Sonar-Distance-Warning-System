@@ -24,11 +24,11 @@ This project demonstrates a Sonar Distance Warning System implemented on the ZYB
 ## Project Structure
 The project consists of the following components:
 
-# Vivado Hardware Design**:
+### Vivado Hardware Design:
    - Contains block design for integrating the Zynq PS, Pmod peripherals, and custom hardware logic for PmodSSD in SystemVerilog (I have another version without SystemVerilog PmodSSD hardware, purely using GPIO           block to control everything).
    - Verilog/SystemVerilog modules for SSD control.
 
-# Vitis Software Application**:
+#### Vitis Software Application:
    - Distance measurement using the Pmod MAXSONAR.
    - Warning display logic for the Pmod OLED RGB.
    - SSD refresh logic for smooth display of numerical values.
