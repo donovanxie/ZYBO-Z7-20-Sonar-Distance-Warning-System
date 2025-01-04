@@ -4,7 +4,13 @@ This project demonstrates a Sonar Distance Warning System implemented on the ZYB
   <a href="https://www.youtube.com/shorts/ijbolxgYGHc">
 <img src="https://img.youtube.com/vi/ijbolxgYGHc/0.jpg" alt="YouTube Shorts Video" width="500">
    </a>
-</p>   
+</p> 
+<p align="center">
+  <a href="https://www.youtube.com/shorts/ijbolxgYGHc" style="font-size: 18px; text-decoration: none; color: #0000EE;">
+    Demo Video
+  </a>
+</p>
+
 
 ## Features
 - **Distance Measurement**: 
