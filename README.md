@@ -25,7 +25,7 @@ This project demonstrates a Sonar Distance Warning System implemented on the ZYB
 The project consists of the following components:
 
 ### Vivado Hardware Design:
-   - Contains block design for integrating the Zynq PS, Pmod peripherals, and custom hardware logic for PmodSSD in SystemVerilog (I have another version without SystemVerilog PmodSSD hardware, purely using GPIO           block to control everything).
+   - Contains block design for integrating the Zynq PS, Pmod peripherals, and custom hardware logic for PmodSSD in SystemVerilog (I have another [version](https://github.com/donovanxie/Sonar-Distance-Warning-System-With-GPIO-Controlled-PmodSSD) without SystemVerilog PmodSSD hardware, purely using GPIO block to control everything ).
    - Verilog/SystemVerilog modules for SSD control.
 
 #### Vitis Software Application:
@@ -47,7 +47,7 @@ The project consists of the following components:
 
 ## Getting Started
 ### Building the Hardware (Vivado)
-1. Open the Vivado Project from [SonarProjectSV/](./SonarProjectSV/) folder and locate the .xpr file
+1. Open the Vivado Project from [SonarProjectSV](./SonarProjectSV/) folder and locate the .xpr file
 2. Make your own adjustments as you wish.
 3. Build and generate the bitstream (the .xsa file).
 
