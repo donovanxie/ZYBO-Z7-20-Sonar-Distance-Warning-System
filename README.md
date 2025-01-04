@@ -38,7 +38,7 @@ The project consists of the following components:
 - Use block design in Vivado, using ZYNQ processor to connect all components.
 - Add Digilent provided IP files to the block design(the Pmod Oled RGB Display and Pmod MAXSONAR)
 - Connect Pmod MAXSONAR to Pmod Port JA, Pmod Oled RGB Display to Pmod port JB, and Pmod SSD Display to Pmod port JD and JE.
-- 
+  
 ### SSD Logic
 - The SSD display is driven by a custom SystemVerilog module (`SSDPmod`). It handles digit selection and segment control using a hardware clock divider for multiplexing.
 ### Vitis Application Logic
