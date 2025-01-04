@@ -20,7 +20,7 @@ This project demonstrates a Sonar Distance Warning System implemented on the ZYB
 
 - **Vivado**: Design, synthesis, and implementation of the hardware.
 - **Vitis**: Application software development for the Zynq Processing System, please use Vitis version 2023.1 or before. The new Vitis is very buggy compiling this project.
-- 
+  
 ## Project Structure
 The project consists of the following components:
 
@@ -40,3 +40,14 @@ The SSD display is driven by a custom SystemVerilog module (`SSDPmod`). It handl
 - Reads distance from the Pmod MAXSONAR.
 - Updates the SSD and OLED RGB display in real-time based on distance thresholds.
 
+## Getting Started
+### Building the Hardware (Vivado)
+1. Open the Vivado Project from SonarProjectSV/ folder and locate the .xpr file
+2. Import the hardware design and develop the application.
+3. Build and generate the bitstream (the .xsa file).
+
+### Building the Software (Vitis)
+1. Open the Vitis and build the platform project based on the .xsa file.
+2. Locate the main.c file from Sonar_SV_SSD_New/src/main.c and paste the C code into your Vitis.
+3. Build and program the ZYBO Z7-20 board.
+4. Have fun and make your own adjustments freely as you wish.
