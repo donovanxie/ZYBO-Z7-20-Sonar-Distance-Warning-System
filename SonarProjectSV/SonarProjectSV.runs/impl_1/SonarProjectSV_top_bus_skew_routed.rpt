@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date         : Fri Jan  3 16:51:06 2025
+| Host         : DS running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file SonarProjectSV_top_bus_skew_routed.rpt -pb SonarProjectSV_top_bus_skew_routed.pb -rpx SonarProjectSV_top_bus_skew_routed.rpx
+| Design       : SonarProjectSV_top
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
