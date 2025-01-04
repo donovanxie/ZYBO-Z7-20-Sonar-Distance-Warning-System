@@ -2,7 +2,7 @@
 This project demonstrates a Sonar Distance Warning System implemented on the ZYBO Z7-20 FPGA development board. The system uses a Pmod MAXSONAR to measure distance, a Pmod OLED RGB display to display color-based distance warnings, and a Pmod SSD (Seven-Segment Display) to display distance values (up to 99).
 ## Features
 - **Distance Measurement**: 
-  - Uses Pmod MAXSONAR to measure distance values in real-time with inches as unit.
+  - Uses Pmod MAXSONAR to measure distance values in real-time in inches.
 - **Warning Display**:
   - Distance warnings are displayed as colors on the Pmod OLED RGB display:
     - **Red**: Distance <= 5 (blinking fast).
